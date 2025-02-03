@@ -12,14 +12,17 @@ public class Set {
 		set.add(40);
 		set.add(50);
 		
+		System.out.print("ORIGNAL SET is: ");
 		for( int nums: set) {
 			System.out.print(nums+ " ");
 		}
+		System.out.println();
+		
 		set.add(50);
-		System.out.println(set);
+		System.out.println("SET AFTER INSERTING 50 is: "+ set);
 		
 		set.remove(50);
-		System.out.println(set);
+		System.out.println("SET AFTER REMOVING 50 is: "+ set);
 	}
 
 }
